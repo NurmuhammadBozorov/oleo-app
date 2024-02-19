@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.home{
+    background-color: transparent;
+    max-width: 2551px;
+    width: 100%;
+}

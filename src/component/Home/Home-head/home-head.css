@@ -1,0 +1,114 @@
+.home-head{
+    background: url(https://oleouz.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimg.e819e8c1.png&w=3840&q=75) no-repeat;
+    background-size: 100% 90%;
+    width: 100%;
+    height: 100%;
+}
+.home-head-img-2{
+    margin-top: 18%;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+
+}
+.home-head-text img{
+    margin-top: -41%;
+    margin-left: -8%;
+    width: 60%;
+    height: 40%;
+}
+.home-head-text-2{
+    margin-top: -18%;
+    margin-right: 15rem;
+}
+.home-head-text-2 h3{
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 2rem;
+    color: #e6363f;
+}
+.home-head-text-2 p{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #e6363f;
+    margin-bottom: 2rem;
+}
+.home-head-text-button{
+    display: flex;
+}
+.home-head-text{
+    display: flex;
+}
+.home-head-text-button .btn_1{
+    border-radius: 20px;
+    padding: 6px 22px;
+    background-color: #e6363f;
+    color: #FFF;
+    border: 1px solid #FFC107;
+    margin-right: 30px;
+}
+
+.home-head-text-button .btn_1:hover{
+    background-color: #FFC107;
+    color: #e6363f;
+    border: 1px solid #e6363f;
+}
+.home-head-text-button .btn_2{
+    border-radius: 20px;
+    padding: 6px 22px;
+    background-color: #FFC107;
+    color: #000;
+    border: 1px solid #e6363f;
+}
+
+.home-head-text-button .btn_2:hover{
+    background-color: #e6363f;
+    color: #FFC107;
+    border: 1px solid #e6363f;
+}
+@media screen and (max-width: 1200px) {
+    .home-head-text-2 h3{
+        font-size: 1.5rem;
+    }
+    .home-head-text-2 p{
+        font-size: 0.8rem;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+    .home-head-text-2 h3{
+        font-size: 1.1rem;
+    }
+    .home-head-text-2 p{
+        font-size: 0.5rem;
+    }   
+    .home-head{
+        background-size: 100% 100%;
+    }
+    .home-head-img-2{
+        margin-top: 65%;
+        width: 100%;
+        height: 100%;
+        background-size: 100% 80%;
+    
+    }
+    .home-head-text img{
+        margin-top: -71%;
+        margin-left: 15%;
+        width: 70%;
+        height: 50%;
+    }
+    .home-head-text-2{
+        margin-top: -20%;
+        margin-left: 21rem;
+    }
+    .home-head-text{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen {
+    
+}

@@ -4,7 +4,7 @@ import HomeHead from './Home-head/home-head';
 import HomeLast from './Home-last/home-last';
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <HomeHead/>
       <HomeLast/>
     </div>
