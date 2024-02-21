@@ -1,5 +1,6 @@
 import React  from 'react'
 import './corousel.css'
+import { BsArrowRightSquare } from "react-icons/bs";
 const Corousel = () => {
   return (
     <div className='carousel'>
@@ -49,8 +50,8 @@ const Corousel = () => {
         </div>
         <div className='carousel-last'>
             <div className='carousel-last-button'>
-                <button class="btn_1 btn btn-danger">
-                    <i class="bi bi-arrow-right-square"></i>
+                <button class="btn_1 btn btn-danger d-flex">
+                    <BsArrowRightSquare />
                     <p>Katologni ko'rish</p>
                 </button>
             </div>
